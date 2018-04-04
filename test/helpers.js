@@ -65,8 +65,10 @@ module.exports = {
 
         files.forEach(function (file) {
           var stat = fs.statSync(config.directory + '/' + file);
-          if (stat.isFile())
+          if (stat.isFile()) {
             fs.unlinkSync(config.directory + '/' + file);
+            fs.unlinkSync(config.extendedModelsDirectory + '/' + file.split('.')[0] + '.js');
+          }
         })
         callback && callback()
       })

@@ -1,4 +1,4 @@
-module.exports = function({{ModelName}}) {
+module.exports = function ({{ModelName}}) {
  /*
  // Class methods
  {{ModelName}}.sayHello = function() {

@@ -1,14 +1,14 @@
 module.exports = function ({{ModelName}}) {
- /*
- // Class methods
- {{ModelName}}.sayHello = function() {
-   console.log('Hello from class!');
- }
+  /*
+  // Class methods
+  {{ModelName}}.sayHello = function() {
+    console.log('Hello from class!');
+  }
 
- // Instance methods
- {{ModelName}}.prototype.sayHello = function() {
-   console.log('Hello from instance!')
- }
- */
- return {{ModelName}};
+  // Instance methods
+  {{ModelName}}.prototype.sayHello = function() {
+    console.log('Hello from instance!')
+  }
+  */
+  return {{ModelName}};
 }
